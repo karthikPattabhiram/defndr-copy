@@ -1,0 +1,159 @@
+.main {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.top_title {
+    font-family: SpaceGrotesk-bold;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.top_desc {
+    font-family: SpaceGrotesk-light;
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-align: left;
+    width: 441px;
+    margin-top: 0;
+}
+
+.connect_card {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #090909;
+    margin-left: 0.3rem;
+    margin-bottom: 1.5rem;
+    border: 0.8px solid #ffffff42;
+    border-radius: 11px;
+}
+
+.connect_card p {
+    font-family: SpaceGrotesk-bold;
+    font-size: 20px;
+}
+
+.discord_btn, .discord_btn_linked {
+    font-family: SpaceGrotesk-bold;
+    font-size: 15px;
+    padding: 0.5rem 3.3rem;
+    border-radius: 52px;
+    margin-left: 270px;
+}
+
+.discord_btn {
+    color: black;
+    background-color: white;
+}
+
+.discord_btn_linked {
+    color: white;
+    background-color: #080808;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.connect_btn {
+    font-family: SpaceGrotesk-bold;
+    font-size: 15px;
+    width: 128px;
+    height: 41px;
+    padding: 11px 51px 11px 51px;
+    border-radius: 53px;
+    background-color: white;
+    color: black;
+    margin-left: 240px;
+}
+
+.link_btn {
+    font-family: SpaceGrotesk-bold;
+    font-size: 15px;
+    width: 128px;
+    height: 41px;
+    padding: 11px 0px 11px 0px;
+    border-radius: 52.616668701171875px;
+    color: black;
+    background-color: white;
+    border: 1px solid #ffffff42;
+    align-items: center;
+  }
+  
+.cancel_btn {
+    font-family: SpaceGrotesk-bold;
+    font-size: 15px;
+    width: 128px;
+    height: 41px;
+    padding: 11px 0px 11px 0px;
+    border-radius: 52px;
+    color: white;
+    background-color: black;
+    border: 1px solid #ffffff42;
+}
+
+.bottom {
+    margin-top: 20px;
+    width: 513px;
+    height: 417px;
+    border-radius: 12px;
+    border: 0.8px solid #FFFFFF1A;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #090909;
+    align-items: center;
+}
+
+.confirmation_text {
+    font-family: SpaceGrotesk-bold;
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    width: 399px;
+    line-height: normal;
+}
+
+.discord_profile {
+    border-radius: 999px;
+    position: relative;
+    left: 12px;
+    transition: all 500ms ease-in;
+    border: 5px solid white;
+}
+
+.b_top {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.b_mid {
+    display: flex;
+    margin-top: 15px;
+    gap: 0.75rem;
+}
+
+.b_bottom {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.b_bottom p {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.web3_profile {
+    position: relative;
+    right: 12px;
+}
